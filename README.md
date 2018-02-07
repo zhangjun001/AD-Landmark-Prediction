@@ -4,7 +4,7 @@ Keras implementation for predefined AD landmark prediction.
 
 
 
-The code was written by Jun Zhang, Department of Radiology at UNC. He is currently working at Duke University
+The code was written by Jun Zhang and Mingxia Liu, Department of Radiology at UNC. Jun Zhang is currently working at Duke University
 
 Applications
 
