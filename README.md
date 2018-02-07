@@ -15,6 +15,7 @@ Predict 50 AD landmarks
 Prerequisites
 
 Linux python 2.7
+
 Keras version 0.2.0_4
 
 NVIDIA GPU + CUDA CuDNN (CPU mode, untested) Cuda version 8.0.61
@@ -24,7 +25,9 @@ Getting Started
 Installation
 
 Install Keras and dependencies 
+
 Install SimpleITK with pip install SimpleITK
+
 Install numpy, scipy, and matplotlib with pip install numpy scipy matplotlib
 
 Download the pretrained model from https://duke.box.com/s/bme1f2tnk4vefomlbxyal5y17c6ah2al
@@ -61,6 +64,7 @@ If you use this code for your research, please cite our paper:
   year={2016},
   publisher={IEEE}
 }
+
 @article{liu2018landmark,
   title={Landmark-based deep multi-instance learning for brain disease diagnosis},
   author={Liu, Mingxia and Zhang, Jun and Adeli, Ehsan and Shen, Dinggang},
