@@ -28,7 +28,7 @@ Install Keras and dependencies
 
 Install SimpleITK with pip install SimpleITK
 
-Install numpy, scipy, and matplotlib with pip install numpy scipy matplotlib
+Install numpywith pip install numpy 
 
 Download the pretrained model from https://duke.box.com/s/bme1f2tnk4vefomlbxyal5y17c6ah2al
 
