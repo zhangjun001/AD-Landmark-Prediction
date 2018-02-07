@@ -27,13 +27,25 @@ Install Keras and dependencies
 Install SimpleITK with pip install SimpleITK
 Install numpy, scipy, and matplotlib with pip install numpy scipy matplotlib
 
-download the pretrained model from https://duke.box.com/s/bme1f2tnk4vefomlbxyal5y17c6ah2al
-copy the model to the folder of /Model
+Download the pretrained model from https://duke.box.com/s/bme1f2tnk4vefomlbxyal5y17c6ah2al
+
+Copy the model to the folder of /Model
+
 cd to current folder and 
+
 Apply our Pre-trained Model with GPU
+
+
 
 python main.py --path Img.nii.gz
 
+Note we use the Keras backend as follows
+{
+    "image_data_format": "channels_first",
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "backend": "tensorflow"
+}
 
 Citation
 
