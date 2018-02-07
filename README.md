@@ -40,7 +40,7 @@ Apply our Pre-trained Model with GPU
 
 
 
-python main.py --path Img.nii.gz
+python main.py --input Img.nii.gz
 
 Note we use the Keras backend as follows
 {
