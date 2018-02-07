@@ -1,7 +1,6 @@
 # AD-Landmark-Prediction
 
-Keras implementation for predefined AD landmark prediction.
-
+Keras implementation for the prediction of predefined AD landmarks.
 
 
 The code was written by Jun Zhang and Mingxia Liu, Department of Radiology at UNC. Jun Zhang is currently working at Duke University
@@ -9,8 +8,9 @@ The code was written by Jun Zhang and Mingxia Liu, Department of Radiology at UN
 Applications
 
 Predict 50 AD landmarks
+We used group comparison to define more than 1000 landmarks that are related to the Alzheimer's disease[1]. In our following work[2], we noticed that top 20 to 50 landmarks may be enough for AD classification by intergating deep neural networks. Therefore, we provide the landmark detection code to predict 50 landmarks for new images. 
 
-
+Note that, you must perform the linear alignment for your image (to Img.nii.gz), and then run our code for landmark detection.
 
 Prerequisites
 
@@ -54,6 +54,8 @@ Citation
 
 If you use this code for your research, please cite our paper:
 
+[1] 
+
 @article{zhang2016detecting,
   title={Detecting anatomical landmarks for fast Alzheimer’s disease diagnosis},
   author={Zhang, Jun and Gao, Yue and Gao, Yaozong and Munsell, Brent C and Shen, Dinggang},
@@ -64,6 +66,8 @@ If you use this code for your research, please cite our paper:
   year={2016},
   publisher={IEEE}
 }
+
+[2] 
 
 @article{liu2018landmark,
   title={Landmark-based deep multi-instance learning for brain disease diagnosis},
